@@ -132,7 +132,6 @@ public class DayScheduleViewHolder extends RecyclerView.ViewHolder {
                     slot_bookmark.setImageResource(R.drawable.ic_bookmark_white_24dp);
                     slot_bookmark.setColorFilter(storedColor,PorterDuff.Mode.SRC_ATOP);
 
-                    Snackbar.make(slot_content, R.string.added_bookmark, Snackbar.LENGTH_SHORT).show();
                 }
                 WidgetUpdater.updateWidget(context);
             });
