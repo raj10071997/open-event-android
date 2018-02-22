@@ -234,9 +234,9 @@ public class ScheduleFragment extends BaseFragment implements OnBookmarkSelected
                         notifyUpdate(-1, selectedTracks);
                     }
                 })
-                .setNegativeButton("Cancel",((dialogInterface, i) -> {
+                .setNegativeButton("Cancel", (dialogInterface, i) -> {
                     isTrackSelected = Arrays.copyOf(saveSelectedTracks, saveSelectedTracks.length);
-                }));
+                });
 
         dialogSort.show();
     }
